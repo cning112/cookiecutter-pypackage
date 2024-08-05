@@ -122,7 +122,7 @@ def test_bake_with_apostrophe_and_run_tests(cookies):
 #
 #         # when:
 #         travis_setup_cmd = ('python travis_pypi_setup.py'
-#                             ' --repo audreyr/cookiecutter-pypackage'
+#                             ' --repo cning112/cookiecutter-pypackage'
 #                             ' --password invalidpass')
 #         run_inside_dir(travis_setup_cmd, project_path)
 #         # then:
@@ -247,7 +247,7 @@ def test_not_using_pytest(cookies):
 #
 #     # when:
 #     travis_setup_cmd = ('python travis_pypi_setup.py'
-#                         ' --repo audreyr/cookiecutter-pypackage'
+#                         ' --repo cning112/cookiecutter-pypackage'
 #                         ' --password invalidpass')
 #     run_inside_dir(travis_setup_cmd, project_path)
 #

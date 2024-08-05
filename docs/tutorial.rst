@@ -4,7 +4,7 @@ Tutorial
 .. note:: Did you find any of these instructions confusing? `Edit this file`_
           and submit a pull request with your improvements!
 
-.. _`Edit this file`: https://github.com/audreyfeldroy/cookiecutter-pypackage/blob/master/docs/tutorial.rst
+.. _`Edit this file`: https://github.com/cning112/cookiecutter-pypackage/blob/master/docs/tutorial.rst
 
 To start with, you will need a `GitHub account`_ and an account on `PyPI`_. Create these before you get started on this tutorial. If you are new to Git and GitHub, you should probably spend a few minutes on some of the tutorials at the top of the page at `GitHub Help`_.
 
@@ -56,7 +56,7 @@ Use cookiecutter, pointing it at the cookiecutter-pypackage repo:
 
 .. code-block:: bash
 
-    cookiecutter https://github.com/audreyfeldroy/cookiecutter-pypackage.git
+    cookiecutter https://github.com/cning112/cookiecutter-pypackage.git
 
 You'll be asked to enter various values to set the package up.
 If you don't know what to enter, press Enter to stick with the defaults.
@@ -160,7 +160,7 @@ When you are ready, release your package the standard Python way.
 
 See `PyPI Help`_ for more information about submitting a package.
 
-Here's a release checklist you can use: https://github.com/audreyfeldroy/cookiecutter-pypackage/blob/master/docs/pypi_release_checklist.rst
+Here's a release checklist you can use: https://github.com/cning112/cookiecutter-pypackage/blob/master/docs/pypi_release_checklist.rst
 
 .. _`PyPI`: https://pypi.python.org/pypi
 .. _`PyPI Help`: https://pypi.org/help/#publishing
@@ -171,4 +171,4 @@ Having problems?
 
 Visit our :ref:`troubleshooting` page for help. If that doesn't help, go to our `Issues`_ page and create a new Issue. Be sure to give as much information as possible.
 
-.. _`Issues`: https://github.com/audreyfeldroy/cookiecutter-pypackage/issues
+.. _`Issues`: https://github.com/cning112/cookiecutter-pypackage/issues

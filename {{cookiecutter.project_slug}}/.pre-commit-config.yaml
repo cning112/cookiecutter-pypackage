@@ -1,0 +1,54 @@
+default_stages: [ pre-commit ]
+
+repos:
+  - repo: local
+    hooks:
+      - id: mypy
+        name: Nox mypy
+        entry: nox -f noxfile.py --session mypy -- fix
+        pass_filenames: false
+        language: system
+        types: [ python ]
+        verbose: true
+
+  - repo: local
+    hooks:
+      - id: lint
+        name: Nox lint
+        entry: nox -f noxfile.py --session lint -- fix
+        pass_filenames: false
+        language: system
+        types: [ python ]
+        verbose: true
+
+  - repo: local
+    hooks:
+      - id: uv-pip-compile
+        name: uv pip-compile prod
+        description: Automatically compile requirements for production.
+        entry: uv pip compile pyproject.toml -o requirements-prod.txt
+        additional_dependencies: [ "uv" ]
+        language: python
+        files: (pyproject\.toml$|requirements-prod\.txt$)
+        pass_filenames: false
+        always_run: false
+
+      - id: uv-pip-compile
+        name: uv pip-compile dev
+        description: Automatically compile requirements for development.
+        entry: uv pip compile pyproject.toml --extra dev --extra test -o requirements.txt
+        additional_dependencies: [ "uv" ]
+        language: python
+        files: (pyproject\.toml$|requirements\.txt$)
+        pass_filenames: false
+        always_run: false
+
+      - id: uv-pip-compile
+        name: uv pip-compile test
+        description: Automatically compile requirements for test.
+        entry: uv pip compile pyproject.toml --extra test -o requirements-test.txt
+        additional_dependencies: [ "uv" ]
+        language: python
+        files: (pyproject\.toml$|requirements-test\.txt$)
+        pass_filenames: false
+        always_run: false

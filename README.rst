@@ -2,12 +2,12 @@
 Cookiecutter PyPackage
 ======================
 
-.. image:: https://pyup.io/repos/github/audreyfeldroy/cookiecutter-pypackage/shield.svg
-    :target: https://pyup.io/repos/github/audreyfeldroy/cookiecutter-pypackage/
+.. image:: https://pyup.io/repos/github/cning112/cookiecutter-pypackage/shield.svg
+    :target: https://pyup.io/repos/github/cning112/cookiecutter-pypackage/
     :alt: Updates
 
-.. image:: https://travis-ci.org/audreyfeldroy/cookiecutter-pypackage.svg?branch=master
-    :target: https://travis-ci.org/github/audreyfeldroy/cookiecutter-pypackage
+.. image:: https://travis-ci.org/cning112/cookiecutter-pypackage.svg?branch=master
+    :target: https://travis-ci.org/github/cning112/cookiecutter-pypackage
     :alt: Build Status
 
 .. image:: https://readthedocs.org/projects/cookiecutter-pypackage/badge/?version=latest
@@ -16,7 +16,7 @@ Cookiecutter PyPackage
 
 Cookiecutter_ template for a Python package.
 
-* GitHub repo: https://github.com/audreyfeldroy/cookiecutter-pypackage/
+* GitHub repo: https://github.com/cning112/cookiecutter-pypackage/
 * Documentation: https://cookiecutter-pypackage.readthedocs.io/
 * Free software: BSD license
 * Discord: https://discord.gg/PWXJr3upUE
@@ -30,7 +30,6 @@ Features
 * Sphinx_ docs: Documentation ready for generation with, for example, `Read the Docs`_
 * bump2version_: Pre-configured version bumping with a single command
 * Auto-release to PyPI_ when you push a new tag to master (optional)
-* Command line interface using Click (optional)
 
 .. _Cookiecutter: https://github.com/cookiecutter/cookiecutter
 
@@ -39,14 +38,14 @@ Build Status
 
 Linux:
 
-.. image:: https://img.shields.io/travis/audreyfeldroy/cookiecutter-pypackage.svg
-    :target: https://travis-ci.org/audreyfeldroy/cookiecutter-pypackage
+.. image:: https://img.shields.io/travis/cning112/cookiecutter-pypackage.svg
+    :target: https://travis-ci.org/cning112/cookiecutter-pypackage
     :alt: Linux build status on Travis CI
 
 Windows:
 
-.. image:: https://ci.appveyor.com/api/projects/status/github/audreyr/cookiecutter-pypackage?branch=master&svg=true
-    :target: https://ci.appveyor.com/project/audreyr/cookiecutter-pypackage/branch/master
+.. image:: https://ci.appveyor.com/api/projects/status/github/cning112/cookiecutter-pypackage?branch=master&svg=true
+    :target: https://ci.appveyor.com/project/cning112/cookiecutter-pypackage/branch/master
     :alt: Windows build status on Appveyor
 
 Quickstart
@@ -59,7 +58,7 @@ Cookiecutter 1.4.0 or higher)::
 
 Generate a Python package project::
 
-    cookiecutter https://github.com/audreyfeldroy/cookiecutter-pypackage.git
+    cookiecutter https://github.com/cning112/cookiecutter-pypackage.git
 
 Then:
 
@@ -155,6 +154,6 @@ make my own packaging experience better.
 .. _`veit/cookiecutter-namespace-template`: https://github.com/veit/cookiecutter-namespace-template
 .. _`zillionare/cookiecutter-pypackage`: https://zillionare.github.io/cookiecutter-pypackage/
 .. _`waynerv/cookiecutter-pypackage`: https://waynerv.github.io/cookiecutter-pypackage/
-.. _github comparison view: https://github.com/tony/cookiecutter-pypackage-pythonic/compare/audreyr:master...master
-.. _`network`: https://github.com/audreyr/cookiecutter-pypackage/network
-.. _`family tree`: https://github.com/audreyr/cookiecutter-pypackage/network/members
+.. _github comparison view: https://github.com/tony/cookiecutter-pypackage-pythonic/compare/cning112:master...master
+.. _`network`: https://github.com/cning112/cookiecutter-pypackage/network
+.. _`family tree`: https://github.com/cning112/cookiecutter-pypackage/network/members
