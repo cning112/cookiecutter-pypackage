@@ -14,7 +14,7 @@ def tests(session):
 
 
 @nox.session(python=PY_VERSION, reuse_venv=True)
-def lint(session):
+def styles(session):
     session.install("ruff")
     fix = bool(session.posargs and session.posargs[0] == "fix")
     session.run(

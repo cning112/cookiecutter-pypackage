@@ -22,11 +22,12 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = [
+    "nox",
     "pre-commit", # pre-commit hoooks
     "uv",  # package installer and resolver
 ]
 test = [
-    "nox", "pytest", "pytest-cov",
+    "pytest", "pytest-cov",
 ]
 
 [project.urls]
@@ -48,6 +49,10 @@ build-backend = "hatchling.build"
 # ----
 [tool.ruff]
 line-length = 120
+src = ["src", "tests"]
+exclude = [
+	"*cookiecutter.project_slug*"
+]
 
 [tool.ruff.format]
 skip-magic-trailing-comma = true
