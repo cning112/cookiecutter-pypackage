@@ -61,6 +61,12 @@ skip-magic-trailing-comma = true
 # On top of the default `select` (`E4`, E7`, `E9`, and `F`), enable isort (`I`)
 extend-select = ["I"]
 
+# uv
+# ----
+[tool.uv.pip]
+emit-index-url = true
+no-strip-extras = true
+no-strip-markers = true
 
 # Mypy
 # ----
