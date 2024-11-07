@@ -62,7 +62,10 @@ skip-magic-trailing-comma = true
 extend-select = ["I"]
 
 # uv
-# ----
+# --
+[tool.uv]
+extra-index-url = []
+
 [tool.uv.pip]
 emit-index-url = true
 no-strip-extras = true
